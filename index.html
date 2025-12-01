@@ -5,31 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Couples</title>
 </head>
-<nav><home></home><Do></Do></nav>
+
 <body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Do</a>
+    </nav>
+
     <h1>Couples</h1>
     <h2>Get your peace of mind</h2>
-    <br>
-    <!--Forms-->
- <div>
-    <form action="procces.php" method="post">
-        <label>Create username</label>
-        <input type="text"input type="number" name="Create username">
-        <br>
- </div>
-<div>
-   <label>Enter Password</label>
-   <input type="number" password="create password">
-    <br>
-    <label>Message</label>
-    <textarea></textarea>
-    </div>
-</form>
-<!--Button-->
-<button>Sign up</button>
-<!--Image-->
-<img Src="v" alt="my sample image">
-<!--Quotations-->
-<blockquote >Dont lie</blockquote>
+
+    <!-- Form -->
+    <form action="process.php" method="post">
+
+        <div>
+            <label for="username">Create Username</label>
+            <input type="text" id="username" name="username">
+        </div>
+
+        <div>
+            <label for="password">Create Password</label>
+            <input type="password" id="password" name="password">
+        </div>
+
+        <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message"></textarea>
+        </div>
+
+        <button type="submit">Sign Up</button>
+
+    </form>
+
+    <!-- Image -->
+    <img src="v.jpg" alt="My sample image">
+
+    <!-- Quote -->
+    <blockquote>Don't lie</blockquote>
+
 </body>
 </html>
